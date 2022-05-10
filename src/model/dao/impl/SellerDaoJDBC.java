@@ -162,7 +162,6 @@ public class SellerDaoJDBC implements SellerDao {
 		return dep;
 	}
 	
-
 	@Override
 	public List<Seller> findAll() {
 		PreparedStatement st = null;
@@ -200,7 +199,6 @@ public class SellerDaoJDBC implements SellerDao {
 		}
 	}
 	
-
 	@Override
 	public List<Seller> findByDepartment(Department department) {
 		PreparedStatement st = null;
