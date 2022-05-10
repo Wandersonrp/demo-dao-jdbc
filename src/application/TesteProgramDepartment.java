@@ -21,5 +21,9 @@ public class TesteProgramDepartment {
 		
 		System.out.println("\n=== Test  3: department delete ===");
 		departmentDao.deleteById(7);
+		
+		System.out.println("\n=== Test  4: department findById ===");
+		dep = departmentDao.findById(1);
+		System.out.println(dep);
 	}
 }
