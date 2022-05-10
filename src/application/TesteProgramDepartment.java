@@ -11,7 +11,12 @@ public class TesteProgramDepartment {
 		DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
 		
 		System.out.println("=== Test 1 : department insert ===");
-		Department dep = new Department(5, "Management");
+		Department dep = new Department(6, "Management");
 		departmentDao.insert(dep);
+		
+		System.out.println("\n=== Test 2 : department update ===");
+		dep.setId(1);
+		dep.setName("Office");
+		departmentDao.update(dep);
 	}
 }
