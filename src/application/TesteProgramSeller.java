@@ -8,7 +8,7 @@ import model.dao.SellerDao;
 import model.entities.Department;
 import model.entities.Seller;
 
-public class TesteProgram {
+public class TesteProgramSeller {
 
 	public static void main(String[] args) {
 		
