@@ -39,5 +39,9 @@ public class TesteProgram {
 		newSeller.setEmail("bryanblue@gmail.com");
 		sellerDao.update(newSeller);
 		System.out.println("Update Complete!");
+		
+		System.out.println("\n=== Test 6: seller delete ===");
+		sellerDao.deleteById(70);
+		System.out.println("Delete complete!");
 	}
 }
